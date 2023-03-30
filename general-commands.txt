@@ -1,7 +1,16 @@
 --- General Terminal Commands ---
 
-Open file with the default application:
-	open path/example.txt
-Open file with a certain application:
-	open -a "Preview" example.pdf
+*** ignore []
 
+Open file with the default application:
+	open [path/to/file]
+
+Open file with a certain application:
+	open -a "[Application Name]" [path/to/file]
+* [-a] to specify the application
+
+Move file
+	mv [path/to/file] [new/path]
+
+Rename file
+	mv [file-name] [new-file-name]
