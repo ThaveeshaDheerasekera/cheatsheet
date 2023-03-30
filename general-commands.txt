@@ -1,0 +1,7 @@
+--- General Terminal Commands ---
+
+Open file with the default application:
+	open path/example.txt
+Open file with a certain application:
+	open -a "Preview" example.pdf
+
